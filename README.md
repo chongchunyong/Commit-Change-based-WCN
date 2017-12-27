@@ -2,7 +2,7 @@ Commit Change-based Weighted Complex Network
 
 Two source files are uploaded to this repository which supplement the paper titled - "A Commit Change-based Weighted Complex Network Approach to Identify Fault Prone Classes".
 
-The first file, Co-change Script.sh, provide users a way to extract co-change behaviour from any Github repository and return in csv format which contains three column - Weight, Source, and Target. 
+The first file, Co-change Script.sh, provide users a way to extract co-change behaviour from any Github repository and return the query in csv format which contains three columns - Weight, Source, and Target. 
 Users can specify the target repository by changing the "repository name" variable. The code also provide a way to specify the range of date for inspection by modifying the "SINCE" and "UNTIL" variable. 
 The output csv which contains 3 columns can be easily exported to Cytoscape for further analysis by mapping the source node, target node, and weight of edges connecting two nodes. 
 
